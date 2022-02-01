@@ -12,15 +12,13 @@ molecule:
   script:
     - image=${image} tag=${tag} molecule test
   rules:
-    - if: $CI_COMMIT_REF_NAME == "master"
+    - if: $CI_COMMIT_REF_NAME == "main"
   retry: 1
   parallel:
     matrix:
       - image: "amazonlinux"
         tag: "latest"
-      - image: "enterpriselinux"
-        tag: "latest"
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.${CI_PROJECT_NAME}
+    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.epel
