@@ -23,8 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: test role install
+      - name: Test Role install.
         run: ansible-galaxy install buluma.epel
 
-      - name: test online role
-        run: ansible-galaxy info buluma.ansible_role_prometheus
+      - name: Get Role ID.
+        run: ansible-galaxy info buluma.epel
