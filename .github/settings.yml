@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install epel on your system.
+  homepage: https://buluma.co.ke/
+  topics: epel, repository, installer, packages, ansible, molecule, tox, playbook, hacktoberfest
