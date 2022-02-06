@@ -4,7 +4,7 @@ Install epel on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![pipeline status](https://gitlab.com/buluma/ansible-role-epel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-epel/-/commits/main)|[![quality](https://img.shields.io/ansible/quality/57859)](https://galaxy.ansible.com/buluma/core_dependencies)|[![downloads](https://img.shields.io/ansible/role/d/57859)](https://galaxy.ansible.com/buluma/core_dependencies)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/releases/)|
+|[![github](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-epel/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-epel)|[![quality](https://img.shields.io/ansible/quality/57859)](https://galaxy.ansible.com/buluma/epel)|[![downloads](https://img.shields.io/ansible/role/d/57859)](https://galaxy.ansible.com/buluma/epel)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -79,4 +79,4 @@ Apache-2.0
 
 ## [Author Information](#author-information)
 
-[Michael Buluma](https://buluma.co.ke/)
+[Michael Buluma](https://buluma.github.io/)

@@ -18,7 +18,22 @@ molecule:
     matrix:
       - image: "amazonlinux"
         tag: "latest"
+      - image: "enterpriselinux"
+        tag: "latest"
+
+testing:
+  script:
+    - image=${image} tag=${tag} molecule test
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 1
+  parallel:
+    matrix:
+      - image: "amazonlinux"
+        tag: "latest"
+      - image: "enterpriselinux"
+        tag: "latest"
 
 galaxy:
   script:
-    - ansible-galaxy role info ${CI_PROJECT_NAMESPACE}.epel
+    - ansible-galaxy role info buluma.epel
