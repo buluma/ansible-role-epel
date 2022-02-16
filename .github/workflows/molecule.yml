@@ -19,7 +19,17 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-20.04
+    env:
+      REPOSITORY_URL: docker.pkg.github.com
+      IMAGE_NAME: "${{ github.repository }}"
+      SLACK_WEBHOOK_URL: "${{ secrets.SLACK_WEBHOOK_URL }}"
     steps:
+      - uses: act10ns/slack@v1
+        with:
+          status: starting
+          channel: "#github"
+          message: Starting Docker Build and Push..
+        if: always()
       - name: checkout
         uses: actions/checkout@v2.4.0
         with:
@@ -54,3 +64,10 @@ jobs:
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
+      - name: Slack Notification
+        uses: act10ns/slack@v1
+        with:
+          status: "${{ job.status }}"
+          steps: "${{ toJson(steps) }}"
+          channel: "#github"
+        if: always()
