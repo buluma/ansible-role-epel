@@ -25,7 +25,7 @@ jobs:
       - uses: act10ns/slack@v1
         with:
           status: starting
-          channel: "#github-chan"
+          channel: "#ansible"
           message: Starting Ansible Epel Molecule Test...
         if: always()
       - name: checkout
@@ -67,5 +67,5 @@ jobs:
         with:
           status: "${{ job.status }}"
           steps: "${{ toJson(steps) }}"
-          channel: "#github"
+          channel: "#ansible"
         if: always()
