@@ -12,7 +12,7 @@ molecule:
   script:
     - image=${image} tag=${tag} molecule test
   rules:
-    - if: $CI_COMMIT_REF_NAME == "main"
+    - if: $CI_COMMIT_REF_NAME == "master"
   retry: 1
   parallel:
     matrix:
@@ -26,6 +26,21 @@ molecule:
 testing:
   script:
     - image=${image} tag=${tag} molecule test
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 1
+  parallel:
+    matrix:
+      - image: "amazonlinux"
+        tag: "latest"
+      - image: "enterpriselinux"
+        tag: "7"
+      - image: "enterpriselinux"
+        tag: "latest"
+
+role_testing:
+  script:
+    - image=${image} tag=${tag} ansible-galaxy install buluma.epel
   rules:
     - if: $CI_COMMIT_REF_NAME == "testing"
   retry: 1
