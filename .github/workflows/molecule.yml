@@ -6,28 +6,20 @@
 name: Ansible Molecule
 
 on:
-  push:
-    branches:
-      - '**'
-    tags-ignore:
-      - '*'
-  pull_request:
+  # Schedule updates (once daily)
   schedule:
     - cron: '9 5 * * *'
   workflow_dispatch:
+  push: {branches: ["master", "main", "testing"]}
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   lint:
     runs-on: ubuntu-20.04
-    env:
-      SLACK_WEBHOOK_URL: "${{ secrets.SLACK_WEBHOOK_URL }}"
     steps:
-      - uses: act10ns/slack@v1
-        with:
-          status: starting
-          channel: "#ansible"
-          message: Starting Ansible Epel Molecule Test...
-        if: always()
       - name: checkout
         uses: actions/checkout@v3
         with:
@@ -64,10 +56,3 @@ jobs:
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
-      - name: Slack Notification
-        uses: act10ns/slack@v1
-        with:
-          status: "${{ job.status }}"
-          steps: "${{ toJson(steps) }}"
-          channel: "#ansible"
-        if: always()
