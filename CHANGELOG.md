@@ -12,16 +12,13 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.4...1.0.5)
 
-**Merged pull requests:**
-
-- Bump actions/checkout from 2.4.0 to 3 [\#4](https://github.com/buluma/ansible-role-epel/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [1.0.4](https://github.com/buluma/ansible-role-epel/tree/1.0.4) (2022-02-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.3...1.0.4)
 
 **Merged pull requests:**
 
+- Bump actions/checkout from 2.4.0 to 3 [\#4](https://github.com/buluma/ansible-role-epel/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Install epel-next on CentOS Stream and other minor fixes. [\#3](https://github.com/buluma/ansible-role-epel/pull/3) ([buluma](https://github.com/buluma))
 - Update molecule.yml [\#2](https://github.com/buluma/ansible-role-epel/pull/2) ([buluma](https://github.com/buluma))
 
