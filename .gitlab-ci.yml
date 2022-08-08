@@ -24,7 +24,7 @@ molecule:
       - image: "enterpriselinux"
         tag: "7"
       - image: "enterpriselinux"
-        tag: "latest"
+        tag: "8"
 
 testing:
   stage: test
@@ -42,4 +42,4 @@ testing:
       - image: "enterpriselinux"
         tag: "7"
       - image: "enterpriselinux"
-        tag: "latest"
+        tag: "8"

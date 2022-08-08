@@ -1,0 +1,10 @@
+---
+#
+# Ansible managed
+#
+argument_specs:
+  main:
+    short_description: Install epel on your system.
+    description: >
+      Install epel on your system.
+    author: Michael Buluma
