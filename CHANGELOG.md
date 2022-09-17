@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.8](https://github.com/buluma/ansible-role-epel/tree/1.0.8) (2022-08-08)
+
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.7...1.0.8)
+
 ## [1.0.7](https://github.com/buluma/ansible-role-epel/tree/1.0.7) (2022-07-08)
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.6...1.0.7)
