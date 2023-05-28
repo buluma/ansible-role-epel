@@ -19,9 +19,9 @@
       ansible.builtin.package:
         name: "{{ epel_next_url }}"
         state: present
-      when: epel_next
       notify:
         - Update package cache
+      when: epel_next
   when:
     - (ansible_distribution == "Amazon" and
       ansible_distribution_major_version == "2") or
