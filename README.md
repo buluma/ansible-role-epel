@@ -2,9 +2,9 @@
 
 Install epel on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-epel/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-epel)|[![quality](https://img.shields.io/ansible/quality/57859)](https://galaxy.ansible.com/buluma/epel)|[![downloads](https://img.shields.io/ansible/role/d/57859)](https://galaxy.ansible.com/buluma/epel)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-epel/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-epel/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-epel/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-epel)|[![downloads](https://img.shields.io/ansible/role/d/4700)](https://galaxy.ansible.com/buluma/epel)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
