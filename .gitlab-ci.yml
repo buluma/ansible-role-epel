@@ -1,5 +1,5 @@
 ---
-image: "buluma/github-action-molecule:5.0.9"
+image: "buluma/github-action-molecule:5.1.1"
 
 variables:
   PY_COLORS: 1
@@ -12,8 +12,6 @@ molecule:
   allow_failure: true
   parallel:
     matrix:
-      - image: "amazonlinux"
-        tag: "latest"
       - image: "enterpriselinux"
         tag: "7"
       - image: "enterpriselinux"

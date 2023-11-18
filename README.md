@@ -75,7 +75,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Amazon](https://hub.docker.com/repository/docker/buluma/amazonlinux/general)|Candidate|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|7, 8|
 
 The minimum version of Ansible required is 2.10, tests have been done to:
