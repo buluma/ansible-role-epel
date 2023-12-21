@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-epel/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.10...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#17](https://github.com/buluma/ansible-role-epel/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.10](https://github.com/buluma/ansible-role-epel/tree/1.0.10) (2023-11-18)
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.9...1.0.10)
