@@ -1,10 +1,10 @@
-# [Ansible role epel](#epel)
+# Ansible role [epel](https://galaxy.ansible.com/ui/standalone/roles/buluma/epel/documentation)
 
 Install epel on your system.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-epel/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-epel.svg)](https://github.com/buluma/ansible-role-epel/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/epel)](https://galaxy.ansible.com/ui/standalone/roles/buluma/epel/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
