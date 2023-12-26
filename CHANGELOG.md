@@ -2,7 +2,17 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-epel/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.10...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.11...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#16](https://github.com/buluma/ansible-role-epel/issues/16)
+- Update action [\#15](https://github.com/buluma/ansible-role-epel/issues/15)
+- rebuild action [\#14](https://github.com/buluma/ansible-role-epel/issues/14)
+
+## [1.0.11](https://github.com/buluma/ansible-role-epel/tree/1.0.11) (2023-12-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.10...1.0.11)
 
 **Merged pull requests:**
 
