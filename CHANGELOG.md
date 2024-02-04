@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-epel/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#24](https://github.com/buluma/ansible-role-epel/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.2.0](https://github.com/buluma/ansible-role-epel/tree/1.2.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.1.0...1.2.0)
