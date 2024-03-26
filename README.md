@@ -14,8 +14,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
 
   roles:
     - role: buluma.epel
@@ -27,8 +27,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  gather_facts: no
-  become: yes
+  gather_facts: false
+  become: true
 
   roles:
     - role: buluma.bootstrap
@@ -46,7 +46,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 # Whether to install the new `epel-next` repository. This is only installed
 # by default on CentOS Stream, as per https://docs.fedoraproject.org/en-US/epel/#_quickstart.
-epel_next: "{{ yes if ansible_distribution_release == 'Stream' }}"
+epel_next: "{{ true if ansible_distribution_release == 'Stream' }}"
 ```
 
 ## [Requirements](#requirements)
