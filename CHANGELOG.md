@@ -17,6 +17,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#23](https://github.com/buluma/ansible-role-epel/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#22](https://github.com/buluma/ansible-role-epel/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-epel/tree/1.1.0) (2024-01-02)
@@ -39,7 +40,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/molecule-action from 6.0.1 to 6.0.3 [\#23](https://github.com/buluma/ansible-role-epel/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#17](https://github.com/buluma/ansible-role-epel/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.10](https://github.com/buluma/ansible-role-epel/tree/1.0.10) (2023-11-18)
