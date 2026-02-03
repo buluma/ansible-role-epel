@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: ansible-role-epel
+    - role: buluma.epel
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-epel/blob/master/molecule/default/prepare.yml):
@@ -74,7 +74,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|9, 8|
+|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8, 9, 10|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
