@@ -41,6 +41,8 @@ jobs:
       matrix:
         distro:
           - image: "enterpriselinux"
+            tag: "8"
+          - image: "enterpriselinux"
             tag: "latest"
     steps:
       - name: checkout
