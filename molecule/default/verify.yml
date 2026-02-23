@@ -1,11 +1,11 @@
 ---
-- name: Verify
-  hosts: all
-  become: true
-  gather_facts: false
+  - name: Verify
+    hosts: all
+    become: true
+    gather_facts: false
 
-  tasks:
-    - name: Install a package from epel
-      ansible.builtin.package:
-        name: aalib
-        state: present
+    tasks:
+      - name: Install a package from epel
+        ansible.builtin.package:
+          name: aalib
+          state: present
