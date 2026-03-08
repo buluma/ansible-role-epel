@@ -10,12 +10,16 @@ on:
     branches:
       - master
       - main
+      - codex
+      - testing
   pull_request:
     branches:
       - master
       - main
+      - codex
+      - testing
   schedule:
-    - cron: "9 5 5 * *"
+    - cron: '9 5 5 * *'
 
   workflow_dispatch:
 
