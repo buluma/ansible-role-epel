@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-epel/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/26.2.3...HEAD)
+
+**Merged pull requests:**
+
+- Bump docker/setup-buildx-action from 3 to 4 [\#32](https://github.com/buluma/ansible-role-epel/pull/32) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [26.2.3](https://github.com/buluma/ansible-role-epel/tree/26.2.3) (2026-02-03)
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/24.3.31...26.2.3)
