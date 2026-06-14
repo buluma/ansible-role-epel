@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-epel/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-epel/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/26.2.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-epel/compare/26.2.3...26.6.0)
 
 **Merged pull requests:**
 
