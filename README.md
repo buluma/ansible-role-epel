@@ -27,8 +27,15 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  gather_facts: false
   become: true
+  gather_facts: false
+
+  pre_tasks:
+    - name: Install sudo if missing
+      ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo"
+      become: false
+      changed_when: false
+      failed_when: false
 
   roles:
     - role: buluma.bootstrap
@@ -46,7 +53,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 # Whether to install the new `epel-next` repository. This is only installed
 # by default on CentOS Stream, as per https://docs.fedoraproject.org/en-US/epel/#_quickstart.
-epel_next: "{{ true if ansible_distribution_release == 'Stream' }}"
+epel_next: "{{ true if ansible_facts['distribution_release'] == 'Stream' }}"
 ```
 
 ## [Requirements](#requirements)
@@ -71,11 +78,14 @@ Here is an overview of related roles:
 
 ## [Compatibility](#compatibility)
 
-This role has been tested on these [container images](https://hub.docker.com/u/robertdebock):
+This role has been tested on these [container images](https://hub.docker.com/u/buluma):
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
+|[EL](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Debian](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Fedora](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/docker-molecule-images)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
 
@@ -93,6 +103,3 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 
 [buluma](https://buluma.github.io/)
 
-### Get Help
-- Report issues: https://github.com/buluma/ansible-role-epel/issues/new
-- See docs: https://docs.ansible.com/collection/gallery/ansible-role-epel
