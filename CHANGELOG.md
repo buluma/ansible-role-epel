@@ -22,7 +22,6 @@
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#26](https://github.com/buluma/ansible-role-epel/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#25](https://github.com/buluma/ansible-role-epel/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#24](https://github.com/buluma/ansible-role-epel/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump actions/checkout from 2.4.0 to 3 [\#4](https://github.com/buluma/ansible-role-epel/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-epel/tree/1.2.0) (2024-01-20)
 
@@ -87,6 +86,10 @@
 ## [1.0.5](https://github.com/buluma/ansible-role-epel/tree/1.0.5) (2022-03-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-epel/compare/1.0.4...1.0.5)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 2.4.0 to 3 [\#4](https://github.com/buluma/ansible-role-epel/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.4](https://github.com/buluma/ansible-role-epel/tree/1.0.4) (2022-02-21)
 
